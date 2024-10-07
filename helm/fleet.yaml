@@ -11,7 +11,8 @@ targetCustomizations:
   - name: prod
     helm:
       values:
-        serviceType: LoadBalancer
+        service:
+          type: LoadBalancer
         replicaCount: 3
     clusterSelector:
       matchLabels:
