@@ -13,7 +13,7 @@ targetCustomizations:
       values:
         service:
           type: LoadBalancer
-        replicaCount: 1
+        replicaCount: 2
     clusterSelector:
       matchLabels:
         env: prod
