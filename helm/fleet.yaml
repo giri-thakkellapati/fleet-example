@@ -3,7 +3,7 @@ targetCustomizations:
   - name: dev
     helm:
       values:
-        replicaCount: 2
+        replicaCount: 3
     clusterSelector:
       matchLabels:
         env: dev
@@ -13,7 +13,7 @@ targetCustomizations:
       values:
         service:
           type: LoadBalancer
-        replicaCount: 3
+        replicaCount: 1
     clusterSelector:
       matchLabels:
         env: prod
