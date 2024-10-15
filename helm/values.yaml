@@ -8,7 +8,7 @@ image:
   repository: harbor.4.247.180.41.nip.io/zelar/green-groove
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "5175a579"
+  tag: "ba38b6db"
 
 imagePullSecrets: 
   - name: harbor-registry-secret
