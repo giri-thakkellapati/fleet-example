@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: tgiriprasadreddy/fleet
+  repository: harbor.4.247.180.41.nip.io/zelar/green-groove
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "2.0"
+  tag: "b6530829"
 
 imagePullSecrets: []
 nameOverride: ""
