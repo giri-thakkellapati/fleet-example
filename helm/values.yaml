@@ -10,7 +10,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "b6530829"
 
-imagePullSecrets: []
+imagePullSecrets: 
+  - name: harbor-registry-secret
 nameOverride: ""
 fullnameOverride: ""
 
